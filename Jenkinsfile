@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = sudo docker.build("haridevopss/novtwentytwo")
+       app = docker.build("haridevopss/novtwentytwo")
     }
 
     stage('Test image') {
